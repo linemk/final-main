@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     container: golang:1.23
     steps:
-      - uses: action/checkout@v4
+      - uses: actions/checkout@v4
 
       - name: Run Tests
         run: GOOS=linux GOARCH=amd64 go test
