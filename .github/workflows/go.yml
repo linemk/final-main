@@ -41,7 +41,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5.5.1
         with:
-          images: linemk/hello-golang
+          images: linemk/
 
       - name: Build and push Docker Image
         uses: docker/build-push-action@v5
